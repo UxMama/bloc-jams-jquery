@@ -4,7 +4,6 @@
     $(this).attr('playState', player.playState);
   });
 
-
   $('button#next').on('click', function() {
     if (player.playState !== 'playing') { return; }
 
